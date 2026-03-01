@@ -12,7 +12,57 @@ bin-release/
 *.air
 *.ipa
 *.apk
+*.aab
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# Project files (e.g. .project, .actionScriptProperties, .flexProperties)
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
+
+# Android / Android Studio
+local.properties
+*.log
+captures/
+.externalNativeBuild/
+.cxx/
+output.json
+*.hprof
+
+# IntelliJ / IDE files
+*.iml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+.vscode/
+
+# Keystore files
+*.jks
+*.keystore
+*.p12
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Gradle / build
+.gradle/
+**/build/
+build/
+app/build/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# Environment / logs
+*.env
+*.log
+
+# Archive / packages
+*.tar.gz
+*.zip
+
+# Misc
+*.keystore.*
